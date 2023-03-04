@@ -1,0 +1,247 @@
+:root {
+  --main-text-color: #212121;
+  --secodary-text-color: #757575;
+  --btn-text-light: #ffffff;
+  --accent-color: #2196f3;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  }
+
+.lists {
+  list-style: none;
+}
+.links,
+.contacts-email-footer,
+.contacts-namber-footer,
+.portfolio-link {
+  text-decoration: none;
+  font-style: normal;
+}
+
+/* Header */
+
+.logo {
+  font-family: "Raleway", sans-seri;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+
+  letter-spacing: 0.03em;
+
+  color: var(--accent-color);
+}
+.logo-studio {
+  color: #000000;
+}
+
+.nav-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+}
+.nav-list:hover,
+.nav-list:focus {
+  color: var(--accent-color);
+}
+.studio {
+  color: var(--accent-color);
+}
+
+.contacts-email {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--secodary-text-color);
+}
+.contacts-email:hover,
+.contacts-email:focus {
+  color: var(--accent-color);
+}
+
+.contacts-namber {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  color: var(--secodary-text-color);
+}
+.contacts-namber:hover,
+.contacts-namber:focus {
+  color: var(--accent-color);
+}
+
+/* HERO */
+
+.main-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.modal-btn {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+
+  color: var(--btn-text-light);
+
+  background: var(--accent-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+.modal-btn:hover,
+.modal-btn:hover {
+  background: #188ce8;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.hero {
+  background: #2f303a;
+}
+
+/* Advantages */
+
+.advantages {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-text-color);
+}
+
+.advantages-description {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: var(--secodary-text-color);
+}
+
+/* About us */
+
+.main-content-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+/* Team */
+
+.team {
+  background-color: #f5f4fa;
+}
+
+.names {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+}
+
+.job {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+
+  color: var(--secodary-text-color);
+}
+
+/* Footer */
+
+.footer {
+  background: #2f303a;
+}
+
+.logo-studio-footer {
+  color: #ffffff;
+}
+
+.address {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+  font-style: normal;
+}
+
+.contacts-email-footer {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.contacts-namber-footer {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* Portfolio */
+
+.portfolio {
+  color: var(--accent-color);
+}
+
+.filter {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  background-color: #f5f4fa;
+  color: var(--main-text-color);
+}
+
+.filter:hover,
+.filter:focus {
+  color: var(--btn-text-light);
+  background: var(--accent-color);
+}
+
+.project-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--main-text-color);
+}
+
+.project-description {
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+
+  color: var(--secodary-text-color);
+}
