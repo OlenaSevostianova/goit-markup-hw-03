@@ -30,6 +30,7 @@ ul {
 
 img {
   display: block;
+  max-width: 100%;
 }
 
 .lists {
@@ -290,6 +291,7 @@ nav {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-color);
+  /* margin-bottom: 20px; */
 }
 
 .logo-studio-footer {
@@ -387,6 +389,5 @@ address {
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
-
   color: var(--secodary-text-color);
 }
