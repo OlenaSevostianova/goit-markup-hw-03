@@ -231,7 +231,7 @@ nav {
 }
 
 .about-us-list {
-  flex-basis: calc((100%-60) 3);
+  flex-basis: calc((100% - 60) / 3);
 }
 /* Team */
 
@@ -273,7 +273,7 @@ nav {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  flex-basis: calc((100%-90) 4);
+  flex-basis: calc((100% - 90) / 4);
 }
 
 /* Footer */
@@ -291,15 +291,12 @@ nav {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--accent-color);
-  /* margin-bottom: 20px; */
+  display: block;
+  margin-bottom: 20px;
 }
 
 .logo-studio-footer {
   color: #ffffff;
-}
-
-address {
-  margin-top: 20px;
 }
 
 .address {
@@ -368,7 +365,7 @@ address {
 }
 
 .portfolio-card {
-  flex-basis: calc((100%-60px) / 3);
+  flex-basis: calc((100% - 60px) / 3);
 }
 
 .portfolio-link-bottom {
