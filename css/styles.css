@@ -69,13 +69,14 @@ img {
 
 /* Header */
 
+header {
+  border-bottom: 1px solid #ececec;
+}
+
 .header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding-top: 24px;
-  padding-bottom: 24px;
-  border-bottom: 1px solid #ececec;
 }
 nav {
   display: flex;
@@ -110,11 +111,14 @@ nav {
 }
 
 .nav-list-link {
+  display: block;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
   color: var(--main-text-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 .nav-list-link:hover,
 .nav-list-link:focus {
@@ -124,14 +128,16 @@ nav {
   color: var(--accent-color);
 }
 
+.email {
+  margin-right: 50px;
+}
+
 .contacts-email {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-
   color: var(--secodary-text-color);
-  margin-right: 50px;
 }
 .contacts-email:hover,
 .contacts-email:focus {
@@ -201,7 +207,10 @@ nav {
 
 .advantages-list {
   display: flex;
-  justify-content: space-between;
+}
+
+.advantages-list-elements:not(:last-child) {
+  margin-right: 30px;
 }
 
 .advantages {
@@ -225,14 +234,22 @@ nav {
 
 /* About us */
 
+.section-about-us {
+  padding-bottom: 94px;
+}
+
 .about-us {
   display: flex;
-  justify-content: space-between;
+}
+
+.about-us-list:not(:last-child) {
+  margin-right: 30px;
 }
 
 .about-us-list {
   flex-basis: calc((100% - 60) / 3);
 }
+
 /* Team */
 
 .team {
@@ -242,11 +259,10 @@ nav {
 .team-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
 }
 
-.portraits {
-  margin-bottom: 30px;
+.employee-description {
+  padding: 30px 10px;
 }
 
 .names {
@@ -265,7 +281,6 @@ nav {
   text-align: center;
   letter-spacing: 0.03em;
   color: var(--secodary-text-color);
-  padding-bottom: 30px;
 }
 
 .team-card {
@@ -274,6 +289,10 @@ nav {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
   flex-basis: calc((100% - 90) / 4);
+}
+
+.team-card:not(:last-child) {
+  margin-right: 30px;
 }
 
 /* Footer */
@@ -305,7 +324,7 @@ nav {
   letter-spacing: 0.03em;
   color: #ffffff;
   font-style: normal;
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .contacts-email-footer {
@@ -314,7 +333,7 @@ nav {
   line-height: 1.71;
   letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
-  padding-bottom: 8px;
+  margin-bottom: 8px;
 }
 
 .contacts-namber-footer {
@@ -328,14 +347,18 @@ nav {
 
 /* Portfolio */
 
+.portfolio {
+  color: var(--accent-color);
+}
+
 .portfolio-filter {
   display: flex;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 
 .portfolio-filter-list:not(:last-child) {
-  padding-right: 8px;
+  margin-right: 8px;
 }
 
 .filter {
@@ -370,7 +393,6 @@ nav {
 
 .portfolio-link-bottom {
   padding: 20px 24px;
-  border: 1px solid #eeeeee;
 }
 
 .project-name {
